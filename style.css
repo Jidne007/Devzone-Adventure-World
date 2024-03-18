@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{margin: 0;padding: 0;outline: 0;}
+body{
+    box-sizing: border-box;
+
+}
+
+img{max-width: 100%;}
+.container {
+	width: 1400px;
+	margin: auto;
+	
+}
+
+header {
+	background: url(img/e5d50e63cdb061b355dbcb4a28bdf266.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;	
+}
+.logo{
+
+}
+.logo h2 {
+	font-size: 37px;
+	text-transform: uppercase;
+	font-weight: 479;
+	color: #fff;
+	margin: 20px 0;
+	line-height: 22px;
+	font-family: arial;
+}
+.logo h2 span {
+	font-weight: 100;
+	font-size: 21px;
+}
+
+nav{
+
+}
+nav ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {
+	list-style: none;
+	margin: 0 0 0 40px;
+}
+nav ul li a {
+	font-family: "Roboto", sans-serif;
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+/*///  banner section/*//*//*/
+
+.banner {
+	padding: 48px;
+	/* margin: 35px 42px 81px 66px; */
+	text-align: center;
+	margin-top: 130px;
+}
+.banner h4 {
+	font-size: 25px;
+	font-weight: 83px;
+	font-style: italic;
+	color: #fff;
+}
+.banner span {
+	height: 5px;
+	width: 138px;
+	display: inline-block;
+	background-color: #fff;
+	border: 0;
+	border-radius: 7px;
+	margin-top: 17px;
+}
+.banner h1 {
+	font-size: 71px;
+	color: #fff;
+	margin-top: 84px;
+	font-weight: 600;
+}
+.banner button {
+	padding: 9px 30px;
+	background: #fff;
+	opacity: 0.6;
+	border: 0;
+	border-radius: 50px;
+	margin-top: 80px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: green;
+	font-size: 17px;
+	letter-spacing: 2px;
+}
+
+
+
+/*// UPCOMING EVENT/*/
+
+.event-main h2 {
+	font-size: 44px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 38px;
+}
+.event-main span {
+	height: 5px;
+	width: 200px;
+	display: block;
+	background-color: #e71313;
+	border: 0;
+	border-radius: 7px;
+	margin: auto;
+}
+.event {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	gap: 72px;
+}
+.event h2{text-align: center;}
+.event-item {
+	width: 500px;
+	text-align: center;
+}
+.event-item img {
+	height: 450px;
+	width:100%;
+	object-fit: cover;
+	border-radius: 10px;
+	box-shadow: 10px 10px 2px gray;
+}
+.event-item h4 {
+	font-size: 22px;
+	margin: 20px 0;
+}
+.event-item p{}
+.event-item a {
+	text-decoration: none;
+	color: #e80909;
+	line-height: 2;
+	letter-spacing: 3px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+
+/**EXPLORE*/
+
+.explore_world {
+	background: url(img/father-daughter-beach-sea-38302.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	background-color: #1906f0a6;
+	padding: 165px 0;
+	display: flex;
+	background-attachment: fixed;
+}
+.explore-item {
+	width: 50%;
+	padding-right: 122px;
+}
+.explore-item h3 {
+	font-size: 60px;
+	color: #fff;
+	margin-bottom:0px;
+}
+.explore-item span{
+	height: 5px;
+	width: 150px;
+	display: block;
+	background-color: #e51212;
+	border: 0;
+	border-radius: 7px;
+	margin-top: 17px;}
+.explore-item p {
+		margin: 45px 0;
+		color: #fff;
+		font-size: 20px;
+		text-align: justify;
+		line-height: 29px;
+	}
+	.explore-item a {
+		color: #fff;
+		text-decoration: none;
+		letter-spacing: 3px;
+		text-transform: capitalize;
+		font-size: 26px;
+	}
+
+
+/**TOur Destination*/
+
+.tour-main {
+	display: flex;
+	margin: 111px 0;
+}
+.tour-item {
+	padding: 10px;
+}
+.tour-item h4 {
+	font-size: 43px;
+	margin-bottom: 10px;
+	font-family: arial;
+}
+.tour-item span {
+	height: 5px;
+	width: 152px;
+	display: block;
+	background-color: #e71313;
+	border: 0;
+	border-radius: 7px;
+	/* margin: auto; */
+}
+.tour-item p {
+	margin: 44px 0;
+	font-size: 22px;
+	line-height: 27px;
+}
+.tour-item button {
+	padding: 12px 30px;
+	border: 0;
+	background-color: rgba(255, 0, 0, 0.939);
+	color: white;
+	font-size: 20px;
+	border-radius: 50px;
+}
+.tour-item img{}
+
+.img1 {
+	height: 306px;
+	object-fit: cover;
+	margin: 0 0 20px 0;
+	width: 344px;
+}
+
+.img2 {
+	height: 544px;
+	object-fit: cover;
+	margin: 0 0 20px 0;
+	width: 348px;
+}
+
+
+/***Footer*/
+
+footer{}
+.footer-main{
+	background-color:#FB295E ;
+
+}
+.footer-main h5 {
+	text-align: center;
+	margin-top: -12px;
+	font-size: 25px;
+	padding: 20px;
+	color: #ffffffe5;
+	font-family: arial;
+}
